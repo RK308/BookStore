@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Book Store</string>
+    <string name="empty_view_title">No Books yet!</string>
+    <string name="empty_view_subtitle">Get started by adding a book</string>
+
+    <string name="menu_main_delete_all_books">Delete all books</string>
+    <string name="menu_main_exit">Exit</string>
+    <string name="menu_main_add_book">Insert</string>
+    <string name="menu_editor_save">Save</string>
+    <string name="menu_editor_delete">Delete</string>
+    <string name="menu_details_edit">Edit</string>
+    <string name="menu_details_delete">Delete</string>
+
+    <string name="editor_activity_title_add_book">Add a Book</string>
+    <string name="editor_activity_title_edit_book">Edit Book</string>
+    
+    <string name="book_title">Book Details:</string>
+    <string name="book_name">Name</string>
+    <string name="book_type">Type</string>
+    <string name="book_price">Price</string>
+    <string name="book_qty">Qty</string>
+    <string name="book_supplier_title">Supplier Details:</string>
+    <string name="supplier_name">Name</string>
+    <string name="supplier_phone">Phone</string>
+
+    <string name="type_fiction">Fiction</string>
+    <string name="type_non_fiction">Non_Fiction</string>
+    <string name="type_unknown">Unknown</string>
+
+    <string name="details_book">Book: </string>
+    <string name="details_type">Type: </string>
+    <string name="details_price">Price: </string>
+    <string name="details_qty">Qty: </string>
+    <string name="details_supplier_name">Name: </string>
+    <string name="details_supplier_phone">Phone: </string>
+    <string name="details_qty_decrease"> - </string>
+    <string name="details_qty_increase"> + </string>
+
+    <string name="list_item_button_text">Sale</string>
+    <string name="adapter_empty_stock">Empty Stock</string>
+
+    <string name="delete_all_dialog_msg">Are you sure want to delete all?</string>
+    <string name="delete_all">Delete All</string>
+    <string name="delete_dialog_msg">Delete this book?</string>
+    <string name="delete_book">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit_confirm">Are you sure want to exit?</string>
+    <string name="exit_yes">Yes</string>
+    <string name="exit_no">No</string>
+
+    <string name="toast_editor_empty_data">Can\'t save empty data</string>
+    <string name="toast_delete_failed">Deletion failed</string>
+    <string name="toast_all_books_deleted">All books deleted</string>
+    <string name="toast_editor_delete_failed">Error with deleting book</string>
+    <string name="toast_editor_delete_successful">Book deleted</string>
+    <string name="toast_editor_insert_failed">Error with inserting book</string>
+    <string name="toast_editor_insert_successful">Book inserted successfully</string>
+    <string name="toast_editor_update_failed">Error with updating book</string>
+    <string name="toast_editor_update_successful">Book updated successfully</string>
+    <string name="toast_qty_descrease_msg">Negative values aren\'t allowed</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="invalid_book_name">Book name is required</string>
+    <string name="invalid_supplier_name">Check the supplier name it cannot be empty</string>
+    <string name="invalid_supplier_phone">Phone number cannot be empty</string>
+    <string name="invalid_price">Price field cannot be empty</string>
+    <string name="invalid_qty">Quantity is required</string>
+</resources>
