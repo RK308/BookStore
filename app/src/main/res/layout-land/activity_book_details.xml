@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_padding"
+    tools:context=".BookDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/book_title"
+            android:textSize="@dimen/book_title_text_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/details_layout_left_margin"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/label_style"
+                android:text="@string/details_book"
+                android:textSize="@dimen/book_title_text_size" />
+
+            <TextView
+                android:id="@+id/book_name_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/book_title_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/details_layout_left_margin"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/label_style"
+                android:text="@string/details_type"
+                android:textSize="@dimen/book_title_text_size" />
+
+            <TextView
+                android:id="@+id/book_type_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/book_title_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/details_layout_left_margin"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/label_style"
+                android:text="@string/details_price"
+                android:textSize="@dimen/book_title_text_size" />
+
+            <TextView
+                android:id="@+id/book_price_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/book_title_text_size" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/details_layout_left_margin"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/label_style"
+                android:text="@string/details_qty"
+                android:textSize="@dimen/book_title_text_size" />
+
+            <Button
+                android:id="@+id/details_button_decrease"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/details_qty_decrease" />
+
+            <TextView
+                android:id="@+id/book_qty_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/book_title_text_size" />
+
+            <Button
+                android:id="@+id/details_button_increase"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/details_qty_increase" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_padding"
+            android:text="@string/book_supplier_title"
+            android:textSize="@dimen/book_title_text_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/details_layout_left_margin"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/label_style"
+                android:text="@string/details_supplier_name"
+                android:textSize="@dimen/book_title_text_size" />
+
+            <TextView
+                android:id="@+id/supplier_name_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/book_title_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/details_layout_left_margin"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/label_style"
+                android:text="@string/details_supplier_phone"
+                android:textSize="@dimen/book_title_text_size" />
+
+            <TextView
+                android:id="@+id/supplier_phone_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/book_title_text_size" />
+
+            <Button
+                android:id="@+id/details_button_phone"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/land_details_phone_icon_right_margin"
+                android:drawableRight="@drawable/ic_phone" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -8,6 +8,13 @@
     <dimen name="heading_text_size">25sp</dimen>
     <dimen name="book_title_text_size">20sp</dimen>
     <dimen name="list_item_text_size">18sp</dimen>
-    <dimen name="details_layout_left_margin">56dp</dimen>
-    <dimen name="details_phone_icon_right_margin">16dp</dimen>
+    <dimen name="list_item_qty_right_margin">20dp</dimen>
+    <dimen name="details_layout_left_margin">50dp</dimen>
+    <dimen name="details_phone_icon_right_margin">5dp</dimen>
+
+    <!-- Landscape -->
+    <dimen name="main_activity_image_width">250dp</dimen>
+    <dimen name="main_activity_image_height">200dp</dimen>
+    <dimen name="list_item_qty_textview_right_margin">80dp</dimen>
+    <dimen name="land_details_phone_icon_right_margin">225dp</dimen>
 </resources>

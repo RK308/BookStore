@@ -42,7 +42,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
-                    android:layout_marginRight="@dimen/list_item_qty_right_margin" />
+                    android:layout_marginRight="@dimen/list_item_qty_textview_right_margin" />
 
             </RelativeLayout>
         </LinearLayout>
