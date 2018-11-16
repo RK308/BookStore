@@ -50,7 +50,7 @@ PROJECT SPECIFICATIONS
 <img src=screenshots/Screenshot_1542383213.png width=300>  <img src=screenshots/Screenshot_1542385703.png width=300>  
 <img src=screenshots/Screenshot_1542387045.png width=300>  <img src=screenshots/Screenshot_1542387955.png width=300>
 <img src=screenshots/Screenshot_1542388754.png width=300>  <img src=screenshots/Screenshot_1542388853.png width=300>
-<img src=screenshots/Screenshot_1542388888.png width=300>
+<img src=screenshots/Screenshot_1542388888.png width=300>  <img src=screenshots/Screenshot_1542397156.png width=300>
 
 <img src=screenshots/Screenshot_1542383751.png height=300>  <img src=screenshots/Screenshot_1542386772.png height=300>
 <img src=screenshots/Screenshot_1542386953.png height=300>  <img src=screenshots/Screenshot_1542387407.png height=300>
